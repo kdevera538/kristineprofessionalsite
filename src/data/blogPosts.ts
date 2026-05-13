@@ -46,4 +46,52 @@ export const blogPosts: BlogPost[] = [
     <p>That's what I do now. And honestly, it's the most useful I've ever felt.</p>
   `,
   },
+  {
+  id: 2,
+  slug: "what-working-at-a-saas-startup-taught-me-about-doing-more-with-less",
+  title: "What Working at a SaaS Startup Taught Me About Doing More With Less",
+  category: "Lessons Learned",
+  date: "May 2025",
+  readTime: "5 min read",
+  excerpt: "There's something about working at a startup that nobody tells you before you join — you're going to do everything manually, and you're going to do it with a smile.",
+  author: "Automation Specialist",
+  authorBio: "Certified No-Code/Low-Code AI Automation Specialist · Former SDR · Ex-Teacher",
+  content: `
+    <p>There's something about working at a startup that nobody tells you before you join — you're going to do everything manually, and you're going to do it with a smile.</p>
+
+    <p>I loved every second of it.</p>
+
+    <p>Working in SaaS tech sales at a startup wasn't just a job. It was a crash course in resourcefulness. No big budget, no dedicated ops team, no fancy automation stack. Just a small, scrappy group of people trying to hit numbers with whatever we had.</p>
+
+    <p>And what we had, mostly, was time — and a lot of manual work to fill it.</p>
+
+    <h2>The Grind Nobody Talks About</h2>
+
+    <p>Our sales process was slow. Not because the team wasn't talented, but because almost everything required a human touch — not by choice, but by necessity. Prospecting lists were built by hand. Follow-up emails were sent one by one. Tracking deal progress meant updating a shared spreadsheet and hoping everyone remembered to do the same.</p>
+
+    <p>It wasn't glamorous. But it taught me exactly where the bottlenecks lived.</p>
+
+    <p>I started noticing patterns. The same repetitive tasks showed up every single day — outreach that took hours, follow-ups that slipped through the cracks, data entry that ate into the time we should have been spending on actual conversations with prospects.</p>
+
+    <h2>The Fire That Started It All</h2>
+
+    <p>That's when something shifted for me. I didn't get frustrated and give up — I got curious.</p>
+
+    <p>If we couldn't afford a full automation stack, could we at least automate the parts that hurt the most? Could we find free or low-cost tools that gave a small startup team the same leverage that bigger companies had?</p>
+
+    <p>I started experimenting. First with simple outreach sequences. Then with automating follow-up reminders. Then with connecting tools that didn't talk to each other so data stopped living in three different places.</p>
+
+    <blockquote>Even shaving an hour a day off manual work felt like hiring an extra team member — one that worked 24/7 and never needed a coffee break.</blockquote>
+
+    <h2>What Startups Actually Need</h2>
+
+    <p>Here's what I learned: startups don't need enterprise-level automation. They need smart, lean workflows that remove the friction from the tasks that happen every single day.</p>
+
+    <p>Most sales reps at startups aren't losing deals because of bad pitches. They're losing time — and sometimes deals — because the process around the selling is slow, disconnected, and still running on manual effort that could easily be replaced.</p>
+
+    <blockquote>You don't need a huge budget to fix that. You need the right tools, the right setup, and someone who understands where the real bottlenecks are.</blockquote>
+
+    <p>That's exactly what lit the fire for me — and it's exactly the problem I now help startups solve.</p>
+  `
+}
 ];
