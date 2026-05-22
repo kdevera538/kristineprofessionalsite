@@ -17,13 +17,13 @@ export const blogPosts: BlogPost[] = [
     slug: "why-i-left-sales-to-automate-it",
     title: "Why I Left Sales to Automate It",
     category: "Origin Story",
-    date: "May 2025",
+    date: "March 2026",
     readTime: "6 min read",
     excerpt:
       "Four years in SaaS taught me a lot about selling. What I didn't expect was that my biggest takeaway had nothing to do with closing deals.",
     author: "Automation Specialist",
     authorBio:
-      "Certified No-Code/Low-Code AI Automation Specialist · Former SDR · Ex-Teacher",
+      "Kristine| Certified No-Code/Low-Code AI Automation Specialist | Former SDR-Teacher",
     content: `
     <p>I was a pretty good SDR. I hit my numbers, I knew the product, and I genuinely liked talking to people. But somewhere around year two, I started paying more attention to the work happening <em>around</em> the selling — and what I saw quietly unsettled me.</p>
     <p>Every morning began the same way: open the CRM, manually log yesterday's calls, copy-paste prospect data from one tool to another, update a spreadsheet that three people maintained but no one fully trusted. By the time I actually got to prospecting, a solid chunk of the morning was already gone — consumed not by strategy, not by conversation, but by the unglamorous business of keeping systems in sync.</p>
@@ -51,11 +51,11 @@ export const blogPosts: BlogPost[] = [
   slug: "what-working-at-a-saas-startup-taught-me-about-doing-more-with-less",
   title: "What Working at a SaaS Startup Taught Me About Doing More With Less",
   category: "Lessons Learned",
-  date: "May 2025",
+  date: "April 2026",
   readTime: "5 min read",
   excerpt: "There's something about working at a startup that nobody tells you before you join — you're going to do everything manually, and you're going to do it with a smile.",
   author: "Automation Specialist",
-  authorBio: "Certified No-Code/Low-Code AI Automation Specialist · Former SDR · Ex-Teacher",
+  authorBio: "Kristine| Certified No-Code/Low-Code AI Automation Specialist | Former SDR-Teacher",
   content: `
     <p>There's something about working at a startup that nobody tells you before you join — you're going to do everything manually, and you're going to do it with a smile.</p>
 
@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
   readTime: "4 min read",
   excerpt: "Manual audiogram data entry was eating hours every week and introducing critical errors into patient records. Here's how I eliminated it completely using AI and no-code automation.",
   author: "Automation Specialist",
-  authorBio: "Certified No-Code/Low-Code AI Automation Specialist · Former SDR · Ex-Teacher",
+  authorBio: "Kristine| Certified No-Code/Low-Code AI Automation Specialist | Former SDR-Teacher",
   content: `
     <h2>The Problem</h2>
 
