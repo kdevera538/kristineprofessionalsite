@@ -93,5 +93,60 @@ export const blogPosts: BlogPost[] = [
 
     <p>That's exactly what lit the fire for me — and it's exactly the problem I now help startups solve.</p>
   `
+},
+  {
+  id: 3,
+  slug: "audiogram-automation-workflow-case-study",
+  title: "Case Study: How I Automated Clinical Audiogram Data Entry With Zero Code",
+  category: "Case Study",
+  date: "May 2025",
+  readTime: "4 min read",
+  excerpt: "Manual audiogram data entry was eating hours every week and introducing critical errors into patient records. Here's how I eliminated it completely using AI and no-code automation.",
+  author: "Automation Specialist",
+  authorBio: "Certified No-Code/Low-Code AI Automation Specialist · Former SDR · Ex-Teacher",
+  content: `
+    <h2>The Problem</h2>
+
+    <p>Every time an audiogram PDF landed in the clinic's inbox, someone had to open it, read through the report, and manually type the patient data into a spreadsheet. It sounds simple — until you realize it was happening dozens of times a week, each entry taking 5 to 10 minutes, and every manual keystroke was a chance for a critical error to enter a patient's clinical history.</p>
+
+    <p>The goal was clear: eliminate manual data entry and human error entirely by automating the extraction and logging of clinical audiogram data into a centralized system.</p>
+
+    <h2>The Solution</h2>
+
+    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:2rem 0;border-radius:12px;">
+      <iframe
+        src="https://www.youtube.com/embed/HV-Tn0BBasY"
+        title="Audiogram Automation Workflow"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;">
+      </iframe>
+    </div>
+
+    <p>I built an AI-driven, no-code automation in Make that seamlessly extracts structured patient data from incoming audiogram PDF attachments and logs it into Google Sheets with complete precision — turning a tedious, error-prone task into an instantaneous, hands-free background process.</p>
+
+    <h2>How It Works</h2>
+
+    <p><strong>Step 1 — Smart Trigger:</strong> The workflow monitors Gmail in real-time for incoming emails containing audiogram PDF attachments. The moment one arrives, the automation kicks in immediately.</p>
+
+    <p><strong>Step 2 — Intelligent Routing:</strong> It instantly analyzes the document to determine whether it is a native digital PDF or a scanned physical copy — because each type requires a different extraction approach.</p>
+
+    <p><strong>Step 3 — AI Extraction & OCR:</strong> Scanned documents are processed through OCodeKit for text recognition, after which Google Gemini AI intelligently extracts specific patient fields and decodes complex hearing thresholds with precision.</p>
+
+    <p><strong>Step 4 — Instant Logging:</strong> The system automatically maps and populates the structured, verified data directly into the target Google Sheets rows — no human touchpoint required.</p>
+
+    <h2>The Results</h2>
+
+    <blockquote>A task that previously took 5 to 10 minutes per report now takes zero seconds of manual effort.</blockquote>
+
+    <p><strong>Guaranteed Data Integrity:</strong> By removing the human transcription step entirely, the risk of typos and entry errors in critical clinical patient histories is eradicated.</p>
+
+    <p><strong>Massive Time Reclamation:</strong> Hours of tedious administrative work are saved every week — time that clinic staff can redirect toward patient care instead of paperwork.</p>
+
+    <p><strong>Operational Scale:</strong> The team can now process high volumes of clinical data instantly, without adding headcount or increasing administrative burden.</p>
+
+    <blockquote>This is what automation should feel like — invisible, reliable, and quietly working in the background so your team doesn't have to.</blockquote>
+  `
 }
 ];
