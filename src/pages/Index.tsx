@@ -111,6 +111,13 @@ const projects = [
   { title: "Automated Reels & Shorts Pipeline", tag: "n8n", desc: "Vertex AI generates ASMR videos on schedule and auto-publishes to Facebook Reels and YouTube Shorts.", image: reelsShorts },
   { title: "Omnichannel Content Repurposing", tag: "Make.com + Gmail", desc: "Email attachments analyzed by AI, renamed, archived to Drive, logged in Sheets, and notifications sent automatically.", image: omnichannel },
   { title: "RAG Knowledge Base Agent", tag: "n8n + Supabase", desc: "Drive-synced vector store powering a Gemini-backed AI agent that answers from your private knowledge base in real time.", image: ragDemo },
+{ 
+    title: "Audiogram Data Extraction Automation", 
+    tag: "Make.com + Gemini AI", 
+    desc: "AI-driven workflow that monitors Gmail for audiogram PDFs, extracts patient data via OCR and Google Gemini, and logs it instantly into Google Sheets — zero manual entry.", 
+    image: techFallback,
+    videoUrl: "https://www.youtube.com/embed/HV-Tn0BBasY"
+  },
 ];
 
 const testimonials = [
@@ -402,15 +409,29 @@ function Index() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((p) => (
             <article key={p.title} className="group rounded-3xl overflow-hidden bg-card border border-border/60 shadow-soft hover:shadow-glow hover:-translate-y-1 transition-all flex flex-col">
-              <div className="relative h-48 overflow-hidden bg-muted">
-                <img src={p.image} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-card/90 backdrop-blur text-xs font-semibold text-primary">{p.tag}</div>
-              </div>
-              <div className="p-6 flex-1">
-                <h3 className="text-lg font-bold mb-2">{p.title}</h3>
-                <p className="text-sm text-muted-foreground">{p.desc}</p>
-              </div>
-            </article>
+  {'videoUrl' in p && p.videoUrl ? (
+    <div className="relative w-full overflow-hidden bg-muted" style={{paddingBottom:'56.25%'}}>
+      <iframe
+        src={(p as any).videoUrl}
+        title={p.title}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className="absolute top-0 left-0 w-full h-full"
+      />
+      <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-card/90 backdrop-blur text-xs font-semibold text-primary">{p.tag}</div>
+    </div>
+  ) : (
+    <div className="relative h-48 overflow-hidden bg-muted">
+      <img src={p.image} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-card/90 backdrop-blur text-xs font-semibold text-primary">{p.tag}</div>
+    </div>
+  )}
+  <div className="p-6 flex-1">
+    <h3 className="text-lg font-bold mb-2">{p.title}</h3>
+    <p className="text-sm text-muted-foreground">{p.desc}</p>
+  </div>
+</article>
           ))}
         </div>
       </section>
