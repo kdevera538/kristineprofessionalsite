@@ -87,7 +87,6 @@ const jobs = [
       "Managed data and administrative tools for 1,200+ students across 9 years of classroom leadership.",
     ] },
 ];
-];
 
 const projects = [
   { title: "Sales & CRM Optimization", tag: "Zapier", desc: "Asana-based CRM with automated lead qualification — turning a project tool into a pipeline engine.", image: asanaCrm },
