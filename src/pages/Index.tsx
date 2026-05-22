@@ -60,45 +60,33 @@ const services = [
   { icon: Zap, title: "Sales + Marketing Ops Glue", desc: "CRM systems, lead-qualification logic, and reporting pipelines that bridge GTM teams." },
 ];
 
-const jobs = [
+const jobs = const jobs = [
   { role: "Automation Fellow", company: "Technical Virtual Assistants", period: "April 2026 – Present",
     bullets: [
-      "Designed and deployed 15+ end-to-end workflow automations across marketing, operations, and customer support, reducing manual processing time by an estimated 30%.",
-      "Expertly architected complex multi-step automations using Make.com, n8n, and Zapier to synchronize data across 10+ disparate platforms, ensuring a single source of truth.",
-      "Implemented low-code API integrations and webhooks that eliminated manual data silos, resulting in 100% real-time data accuracy across connected CRM and Project Management tools.",
-      "Engineered AI-driven workflows leveraging LLMs to automate 100% of initial content drafting and sentiment analysis, increasing content production velocity by 5x.",
-      "Developed automated error-handling and 'fail-safe' logic for all workflows, ensuring 99.9% uptime for business-critical automated processes.",
+      "Designed and deployed 15+ end-to-end workflow automations across marketing, operations, and customer support using Make.com, n8n, and Zapier.",
+      "Engineered AI-driven workflows leveraging LLMs to automate content drafting, sentiment analysis, and data processing — increasing production velocity by 5x.",
     ] },
   { role: "SaaS Sales Development Representative", company: "Soundtrace", period: "April 2022 – April 2026 (4 years)",
     bullets: [
-      "Orchestrated the complete B2B full-sales funnel from cold prospecting to deal closure; supported live product demos for high-value prospects.",
-      "Leveraged ZoomInfo, LinkedIn Sales Navigator, Apollo, and Seamless.AI to identify and qualify stakeholders — driving a 40% increase in qualified pipeline.",
-      "Designed and executed personalized multi-channel sequences (Email, LinkedIn, Phone) that maintained a consistent flow of demo-ready opportunities.",
-      "Maintained 100% CRM accuracy in Salesforce and HubSpot, customizing automated workflows and triggers to maximize SDR productivity.",
-      "Coordinated real-time feedback between sales and marketing via Slack, Zoom, and MS Teams — shortening the lead-to-demo window by 50%.",
+      "Orchestrated the complete B2B full-sales funnel from cold prospecting to deal closure using ZoomInfo, LinkedIn Sales Navigator, Apollo, and Seamless.AI.",
+      "Maintained 100% CRM accuracy in Salesforce and HubSpot while shortening the lead-to-demo window by 50%.",
     ] },
   { role: "Marketing & Creative Tech Specialist", company: "Soundtrace (concurrent with SDR role)", period: "April 2022 – April 2026 (4 years)",
     bullets: [
-      "Managed end-to-end social media presence for FB and IG, producing 400+ high-engagement visual assets monthly (posters, banners, magazine covers).",
-      "Authored 25+ research-driven blogs cross-referenced with medical studies in hearing conservation — earning first-page SEO rankings.",
-      "Designed and deployed 600+ unique digital assets and sales collateral using Canva and Adobe Spark with 100% brand consistency.",
-      "Created and edited 20+ educational video assets with CapCut/Filmora to shorten the sales cycle and educate prospects.",
+      "Managed end-to-end social media presence producing 400+ high-engagement visual assets monthly and authored 25+ research-driven blogs earning first-page SEO rankings.",
       "Reduced content turnaround time by 30% via AI-assisted drafting and templated design workflows.",
     ] },
   { role: "Business Development Fellow", company: "HopOn! Tech Sales (San Francisco, CA)", period: "February 2022 – April 2022",
     bullets: [
       "Selected as one of the top 1% of applicants for a high-intensity SaaS Business Development Fellowship.",
-      "Completed 200+ hours of advanced training in inbound qualification, outbound prospecting, and strategic discovery.",
-      "Trained and certified on a modern BDR workflow using Salesforce, Outreach, LinkedIn Sales Navigator, ZoomInfo, and Vidyard.",
       "Exceeded sales metrics and quotas by 120% via cold calling, video prospecting, and social selling.",
-      "Prospected hundreds of leads and engineered email campaigns and call scripts that converted to webinars.",
     ] },
   { role: "Professional Educator (JHS / SHS)", company: "Tagumpay JHS & Kasiglahan Village SHS", period: "May 2013 – December 2021 (9 years)",
     bullets: [
       "Delivered high-impact instruction and curriculum development for Junior and Senior High School levels.",
-      "Led large-scale classroom operations, utilizing administrative tools to manage data for 1,200+ students.",
-      "Demonstrated long-term professional commitment, adaptability, and high-level communication skills.",
+      "Managed data and administrative tools for 1,200+ students across 9 years of classroom leadership.",
     ] },
+];
 ];
 
 const projects = [
