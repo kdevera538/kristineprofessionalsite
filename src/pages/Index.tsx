@@ -60,7 +60,7 @@ const services = [
   { icon: Zap, title: "Sales + Marketing Ops Glue", desc: "CRM systems, lead-qualification logic, and reporting pipelines that bridge GTM teams." },
 ];
 
-const jobs = const jobs = [
+const jobs = [
   { role: "Automation Fellow", company: "Technical Virtual Assistants", period: "April 2026 – Present",
     bullets: [
       "Designed and deployed 15+ end-to-end workflow automations across marketing, operations, and customer support using Make.com, n8n, and Zapier.",
