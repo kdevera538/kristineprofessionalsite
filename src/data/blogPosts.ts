@@ -99,7 +99,7 @@ export const blogPosts: BlogPost[] = [
   slug: "audiogram-automation-workflow-case-study",
   title: "Case Study: How I Automated Clinical Audiogram Data Entry With Zero Code",
   category: "Case Study",
-  date: "May 2025",
+  date: "May 2026",
   readTime: "4 min read",
   excerpt: "Manual audiogram data entry was eating hours every week and introducing critical errors into patient records. Here's how I eliminated it completely using AI and no-code automation.",
   author: "Automation Specialist",
