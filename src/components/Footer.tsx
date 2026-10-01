@@ -3,6 +3,7 @@ import logo from "@/assets/logo.png";
 export function Footer() {
   return (
     <footer className="mt-24 border-t border-border/60 bg-secondary/40">
+      import birBadge from '../assets/bir-badge.png';
       <div className="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-3">
         <div className="flex items-start gap-3">
           <img src={logo} alt="" className="h-10 w-10 rounded-lg" />
@@ -44,15 +45,14 @@ export function Footer() {
   <p style={{ fontSize: '11px', color: '#9ca3af', marginBottom: '8px' }}>
     BIR Registered — RSN 045RC20230000005822
   </p>
-  <iframe
-  src="https://bir.gov.ph/BIRSeal/seal.php?rsn=045RC20230000005822"
-  width="200"
-  height="200"
-  style={{ border: 'none', opacity: 0.9 }}
-  title="BIR Registration Seal"
-  loading="lazy"
-/>
-</div>   
+  <a href="https://www.bir.gov.ph" target="_blank" rel="noopener noreferrer">
+    <img
+      src={birBadge}
+      alt="BIR Registered Badge"
+      style={{ width: '180px', opacity: 0.85 }}
+    />
+  </a>
+</div>  
     </footer>
   );
 }
