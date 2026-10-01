@@ -31,6 +31,27 @@ export function Footer() {
       <div className="border-t border-border/60 py-4 text-center text-xs text-muted-foreground">
         © {new Date().getFullYear()} Kristine De Vera. Crafted with care.
       </div>
+
+      {/* BIR Registration Seal */}
+<div style={{
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  marginTop: '1.5rem',
+  paddingTop: '1.5rem',
+  borderTop: '1px solid rgba(255,255,255,0.1)'
+}}>
+  <p style={{ fontSize: '11px', color: '#9ca3af', marginBottom: '8px' }}>
+    BIR Registered — RSN 045RC20230000005822
+  </p>
+  <a href="https://www.bir.gov.ph" target="_blank" rel="noopener noreferrer">
+    <img
+      src="/images/bir-badge.png"
+      alt="BIR Registered Badge"
+      style={{ width: '180px', opacity: 0.85 }}
+    />
+  </a>
+</div>   
     </footer>
   );
 }
