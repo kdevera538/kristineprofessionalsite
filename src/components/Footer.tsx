@@ -46,7 +46,7 @@ export function Footer() {
   </p>
   <a href="https://www.bir.gov.ph" target="_blank" rel="noopener noreferrer">
     <img
-      src="/images/bir-badge.png"
+      src="/bir-badge.png"
       alt="BIR Registered Badge"
       style={{ width: '180px', opacity: 0.85 }}
     />
