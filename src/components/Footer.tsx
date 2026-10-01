@@ -44,13 +44,14 @@ export function Footer() {
   <p style={{ fontSize: '11px', color: '#9ca3af', marginBottom: '8px' }}>
     BIR Registered — RSN 045RC20230000005822
   </p>
-  <a href="https://www.bir.gov.ph" target="_blank" rel="noopener noreferrer">
-    <img
-      src="/bir-badge.png"
-      alt="BIR Registered Badge"
-      style={{ width: '180px', opacity: 0.85 }}
-    />
-  </a>
+  <iframe
+  src="https://bir.gov.ph/BIRSeal/seal.php?rsn=045RC20230000005822"
+  width="200"
+  height="200"
+  style={{ border: 'none', opacity: 0.9 }}
+  title="BIR Registration Seal"
+  loading="lazy"
+/>
 </div>   
     </footer>
   );
