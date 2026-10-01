@@ -1,9 +1,9 @@
-import logo from "@/assets/logo.png";
+import birBadge from '../assets/bir-badge.png';
+import logo from '@/assets/logo.png';
 
 export function Footer() {
   return (
     <footer className="mt-24 border-t border-border/60 bg-secondary/40">
-      import birBadge from '../assets/bir-badge.png';
       <div className="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-3">
         <div className="flex items-start gap-3">
           <img src={logo} alt="" className="h-10 w-10 rounded-lg" />
